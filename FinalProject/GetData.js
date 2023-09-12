@@ -3,7 +3,7 @@ const aws = require('aws-sdk');
 const fs = require('fs');
 const XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 //var refresh_uri = 'http://172.16.42.131:3000/refresh_token';
-const BEARER_TOKEN = 'XXXXXXXXXXXXXX'
+const BEARER_TOKEN = 'BQAgM54ttc_q4boUW_z6-TVOAo17iazOpKp29K1xeLqZ63Pm5QTzZ3qX5YjovTuDrmMnIGYLCOWXvzhMco40ylJ03x6_Lc8QONl8PsqwTW8XkfQvcBID45D66UjIiimiT9ONGTfY6nEYxggOJlUWqw'
 
 function readAWSCredentials(path) {
     try {
